@@ -1,0 +1,6 @@
+framework module eaglePrevateTestDemo {
+  umbrella header "eaglePrevateTestDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
