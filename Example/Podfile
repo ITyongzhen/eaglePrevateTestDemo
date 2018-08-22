@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'eaglePrevateTestDemo_Example' do
+  pod 'eaglePrevateTestDemo', :path => '../'
+
+  target 'eaglePrevateTestDemo_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
